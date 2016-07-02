@@ -63,7 +63,7 @@ public class PPUIVersionDetailPreferenceController extends BasePreferenceControl
     @Override
     public CharSequence getSummary() {
         return SystemProperties.get(KEY_PPUI_VERSION_PROP,
-                mContext.getString(R.string.unknown)) + "-" + SystemProperties.get(KEY_PPUI_BUILDTYPE_PROP, mContext.getString(R.string.unknown)); 
+                mContext.getString(R.string.unknown)) + " | " + SystemProperties.get(KEY_PPUI_BUILDTYPE_PROP, mContext.getString(R.string.unknown)); 
     }
 
     @Override
