@@ -24,6 +24,14 @@
         android:key="ppui_logo"
         android:layout="@layout/ppui_logo"
         android:selectable="false"/>
+
+    <!-- Maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MaintainerPreferenceController"/>
     
     <!-- PPUI version -->
     <Preference
