@@ -17,4 +17,7 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
 </resources>
