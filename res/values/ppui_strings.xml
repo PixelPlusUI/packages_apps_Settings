@@ -68,4 +68,7 @@
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
 
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
+
 </resources>
