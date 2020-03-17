@@ -131,4 +131,7 @@ Notifications may be delayed for these apps."</string>
     <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
     <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
 
+    <!-- Notification log --> 
+    <string name="notification_log_summary">Show notifications history log</string>
+
 </resources>
