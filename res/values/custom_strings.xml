@@ -28,8 +28,8 @@ Notifications may be delayed for these apps."</string>
     <string name="smart_battery_title_custom">Use Adaptive Battery</string>
 
     <!-- Config Center -->
-    <string name="config_center_title">PPUI Settings Center</string>
-    <string name="config_center_dashboard_summary">Our ROM Customizations</string>
+    <string name="config_center_title">The Pixelizer</string>
+    <string name="config_center_dashboard_summary">Custom Hub</string>
 
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
