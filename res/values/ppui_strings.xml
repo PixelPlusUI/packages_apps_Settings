@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- PPUI version preference -->
-    <string name="ppui_version">"PixelPlusUI version"</string>
+    <string name="ppui_version">"PixelPlusUI Version"</string>
     <string name="build_date">"Build Time"</string>
 
     <!-- Swipe to screenshot -->

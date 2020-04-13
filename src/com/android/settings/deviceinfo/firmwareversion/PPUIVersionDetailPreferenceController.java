@@ -42,7 +42,7 @@ public class PPUIVersionDetailPreferenceController extends BasePreferenceControl
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_PPUI_VERSION_PROP = "org.pixelplusui.version";
-    private static final String KEY_PPUI_BUILDTYPE_PROP = "org.pixelplusui.build_type";
+    private static final String KEY_PPUI_CODENAME_PROP = "org.pixelplusui.codename";
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
 
@@ -63,7 +63,7 @@ public class PPUIVersionDetailPreferenceController extends BasePreferenceControl
     @Override
     public CharSequence getSummary() {
         return SystemProperties.get(KEY_PPUI_VERSION_PROP,
-                mContext.getString(R.string.unknown)) + " | " + SystemProperties.get(KEY_PPUI_BUILDTYPE_PROP, mContext.getString(R.string.unknown)); 
+                mContext.getString(R.string.unknown)) + " | " + SystemProperties.get(KEY_PPUI_CODENAME_PROP, mContext.getString(R.string.unknown)); 
     }
 
     @Override
