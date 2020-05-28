@@ -76,4 +76,7 @@
     <string name="home_handle_low_label">No Pill</string>
     <string name="home_handle_high_label">Long</string>
 
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">notifications, notification log</string>
+
 </resources>
