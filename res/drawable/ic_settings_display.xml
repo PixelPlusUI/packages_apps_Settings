@@ -1,25 +1,13 @@
-<!--
-    Copyright (C) 2016 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorControlNormal">
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorControlNormal">
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M20,8.69V4h-4.69L12,0.69L8.69,4H4v4.69L0.69,12L4,15.31V20h4.69L12,23.31L15.31,20H20v-4.69L23.31,12L20,8.69zM18,14.48V18h-3.52L12,20.48L9.52,18H6v-3.52L3.52,12L6,9.52V6h3.52L12,3.52L14.48,6H18v3.52L20.48,12L18,14.48zM12,17c2.76,0 5,-2.24 5,-5s-2.24,-5 -5,-5V17z"/>
+        android:pathData="M 19.927 8.513 L 19.927 5.573 C 19.927 4.745 19.256 4.073 18.427 4.073 L 15.487 4.073 C 15.355 4.073 15.227 4.02 15.134 3.926 L 13.061 1.854 C 12.475 1.268 11.525 1.268 10.939 1.854 L 8.866 3.926 C 8.773 4.02 8.645 4.073 8.513 4.073 L 5.573 4.073 C 4.745 4.073 4.073 4.745 4.073 5.573 L 4.073 8.513 C 4.073 8.645 4.02 8.773 3.926 8.866 L 1.854 10.939 C 1.268 11.525 1.268 12.475 1.854 13.061 L 3.926 15.134 C 4.02 15.227 4.073 15.355 4.073 15.487 L 4.073 18.427 C 4.073 19.256 4.745 19.927 5.573 19.927 L 8.513 19.927 C 8.645 19.927 8.773 19.98 8.866 20.073 L 10.939 22.146 C 11.525 22.732 12.475 22.732 13.061 22.146 L 15.134 20.073 C 15.227 19.98 15.355 19.927 15.487 19.927 L 18.427 19.927 C 19.256 19.927 19.927 19.256 19.927 18.427 L 19.927 15.487 C 19.927 15.355 19.98 15.227 20.073 15.134 L 22.146 13.061 C 22.732 12.475 22.732 11.525 22.146 10.939 L 20.073 8.866 C 19.98 8.773 19.927 8.645 19.927 8.513 Z M 17.07 14.717 L 17.07 16.57 C 17.07 16.846 16.846 17.07 16.57 17.07 L 14.717 17.07 C 14.319 17.07 13.937 17.228 13.656 17.51 L 12.354 18.812 C 12.158 19.007 11.842 19.007 11.646 18.812 L 10.344 17.51 C 10.063 17.228 9.681 17.07 9.283 17.07 L 7.43 17.07 C 7.154 17.07 6.93 16.846 6.93 16.57 L 6.93 14.717 C 6.93 14.319 6.772 13.937 6.49 13.656 L 5.188 12.354 C 4.993 12.158 4.993 11.842 5.188 11.646 L 6.49 10.344 C 6.772 10.063 6.93 9.681 6.93 9.283 L 6.93 7.43 C 6.93 7.154 7.154 6.93 7.43 6.93 L 9.283 6.93 C 9.681 6.93 10.063 6.772 10.344 6.49 L 11.646 5.188 C 11.842 4.993 12.158 4.993 12.354 5.188 L 13.656 6.49 C 13.937 6.772 14.319 6.93 14.717 6.93 L 16.57 6.93 C 16.846 6.93 17.07 7.154 17.07 7.43 L 17.07 9.283 C 17.07 9.681 17.228 10.063 17.51 10.344 L 18.812 11.646 C 19.007 11.842 19.007 12.158 18.812 12.354 L 17.51 13.656 C 17.228 13.937 17.07 14.319 17.07 14.717 Z M 13.002 14.761 C 13.486 14.679 14.106 14.495 14.613 14.068 C 15.139 13.623 15.5 12.952 15.5 12 C 15.5 11.048 15.139 10.377 14.613 9.932 C 14.106 9.505 13.486 9.321 13.002 9.239 C 12.108 9.089 11.5 9.852 11.5 10.602 L 11.5 13.398 C 11.5 14.148 12.108 14.911 13.002 14.761 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.63"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="1"/>
 </vector>
