@@ -73,8 +73,7 @@
                     android:id="@+id/seek_bar"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
-                    android:layout_weight="1"
-                    style="@android:style/Widget.Material.SeekBar.Discrete"/>
+                    android:layout_weight="1" />
 
                 <ImageView
                     android:id="@+id/larger"

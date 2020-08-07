@@ -62,8 +62,7 @@
             <com.android.settings.widget.LabeledSeekBar
                 android:id="@+id/seek_bar"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                style="@android:style/Widget.Material.SeekBar.Discrete" />
+                android:layout_height="48dp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

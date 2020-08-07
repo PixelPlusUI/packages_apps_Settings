@@ -29,7 +29,6 @@
         android:layout_gravity="center"
         android:min="0"
         android:max="3"
-        style="@android:style/Widget.Material.SeekBar.Discrete"
         android:theme="@*android:style/ThemeOverlay.DeviceDefault.Accent" />
 
     <LinearLayout
