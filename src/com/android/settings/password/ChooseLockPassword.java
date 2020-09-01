@@ -192,7 +192,7 @@ public class ChooseLockPassword extends SettingsActivity {
         private ImeAwareEditText mPasswordEntry;
         private TextViewInputDisabler mPasswordEntryInputDisabler;
         private int mPasswordMinLength = LockPatternUtils.MIN_LOCK_PASSWORD_SIZE;
-        private int mPasswordMaxLength = 16;
+        private int mPasswordMaxLength = 100;
         private int mPasswordMinLetters = 0;
         private int mPasswordMinUpperCase = 0;
         private int mPasswordMinLowerCase = 0;
@@ -724,8 +724,6 @@ public class ChooseLockPassword extends SettingsActivity {
                 if (mPasswordMinLength > mPasswordMinLengthToFulfillAllPolicies) {
                     errorCode |= TOO_SHORT;
                 }
-            } else if (password.length > mPasswordMaxLength) {
-                errorCode |= TOO_LONG;
             } else {
                 // The length requirements are fulfilled.
                 if (!mPasswordNumSequenceAllowed
