@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- PPUI Version  -->
+    <Preference
+        android:key="PPUI_version"
+	    android:title="@string/PPUI_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PPUIVersionPreferenceController"/>
+
     <!-- PPUI Maintainer  -->
     <Preference
         android:key="PPUI_maintainer"

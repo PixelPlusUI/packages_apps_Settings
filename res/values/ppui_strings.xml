@@ -25,4 +25,7 @@
     <!-- PPUI Maintainer -->
     <string name="PPUI_maintainer">Device Maintainer</string>
 
+    <!-- Elixir version preference -->
+    <string name="PPUI_version">"PixelPlusUI version"</string>
+
 </resources>
