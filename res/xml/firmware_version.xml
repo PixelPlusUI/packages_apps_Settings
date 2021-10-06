@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- PPUI Maintainer  -->
+    <Preference
+        android:key="PPUI_maintainer"
+        android:title="@string/PPUI_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.PPUIMaintainerPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
