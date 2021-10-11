@@ -75,6 +75,7 @@ android_library {
         "lottie",
         "windowExtLib",
         "faceunlock_framework",
+        "custom-preference",
     ],
 
     libs: [
