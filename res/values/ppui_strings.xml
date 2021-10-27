@@ -28,4 +28,7 @@
     <!-- Elixir version preference -->
     <string name="PPUI_version">"PixelPlusUI version"</string>
 
+    <!-- About Phone screen, Device Codename -->
+    <string name="about_device_name">Device</string>
+
 </resources>
