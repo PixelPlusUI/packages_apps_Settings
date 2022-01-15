@@ -23,7 +23,7 @@
     android:selectable="false">
 
     <ImageView
-        android:src="@drawable/ppui_logo"
+        android:src="@drawable/ic_ppui_monet"
         android:adjustViewBounds="true"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
