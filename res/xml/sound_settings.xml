@@ -90,7 +90,7 @@
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.evolution.settings.preference.SecureSettingSwitchPreference
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
@@ -189,6 +189,12 @@
         android:title="@string/screen_locking_sounds_title"
         android:order="-45"/>
 
+    <!-- Screenshot sound -->
+    <SwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title"
+        android:order="-43"/>
+
     <!-- Charging sounds -->
     <SwitchPreference
         android:key="charging_sounds"
@@ -241,10 +247,12 @@
         android:summary="%s"
         android:order="-10"/>
 
-    <!-- Screenshot sound -->
-    <SwitchPreference
-        android:key="screenshot_shutter_sound"
-        android:title="@string/screenshot_shutter_sound_title" />
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="false"
+        android:order="-5"/>
 
     <Preference
         android:key="sound_work_settings"
